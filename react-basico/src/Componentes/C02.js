@@ -1,12 +1,12 @@
 import React from 'react'
 
-const C01 = () => {
-  const texto = "CO1"
+const C02 = () => {
+  const texto = "CO2"
   return (
-    <div>C02
-      <p>{texto}</p>
+    <div>
+      Componente 2
     </div>
   )
 }
 
-export default C01
+export default C02
