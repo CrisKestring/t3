@@ -14,6 +14,11 @@ const Managelist1 = () => {
 
   const deleteRandomstudent = () => {
     const randomNumber = Math.floor(Math.random() * 5);
+
+    setStudants ((prevStudents) => {
+        return prevStudents.filter((students))
+        randomNumber !== students.id;
+    })
   };
 
   return (
